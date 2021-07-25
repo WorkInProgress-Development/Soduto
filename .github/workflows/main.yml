@@ -34,7 +34,7 @@ jobs:
         uses: sersoft-gmbh/xcodebuild-action@v1.5.0
         with:
             workspace: Soduto.xcodeproj
-            target: macos
+            #target: macos
             scheme: Soduto
             action: clean build
 
