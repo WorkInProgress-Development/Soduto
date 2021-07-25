@@ -33,7 +33,7 @@ jobs:
       - name: Xcodebuild Action
         uses: sersoft-gmbh/xcodebuild-action@v1.5.0
         with:
-            workspace: Soduto.xcodeproj
+            project: Soduto.xcodeproj
             #target: macos
             scheme: Soduto
             action: clean build
