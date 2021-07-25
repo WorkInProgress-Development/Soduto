@@ -32,4 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Xcodebuild Action
         uses: sersoft-gmbh/xcodebuild-action@v1.5.0
+        workspace: $GITHUB_WORKSPACE
+        target: macos
+        scheme: clean build
 
